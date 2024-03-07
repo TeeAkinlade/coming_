@@ -7,7 +7,7 @@ const LandingPage = () => {
   return (
     <main className="relative w-screen h-screen overflow-hidden">
         <img src={Bg} alt="" className='absolute object-cover w-full h-full' />
-        <div className="bg-black opacity-65 h-screen">
+        <div className="bg-black h-screen">
             <div className="flex flex-col items-center justify-center">
                 <div className="pt-12">
                     <img src={logo} alt="" className="object-contain" />
