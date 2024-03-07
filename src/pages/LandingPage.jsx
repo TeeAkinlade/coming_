@@ -12,7 +12,7 @@ const LandingPage = () => {
                 <div className="pt-12">
                     <img src={logo} alt="" className="object-contain" />
                 </div>
-                <div className="pt-64">
+                <div className="pt-72">
                     <h1 className="text-3xl md:text-6xl font-extrabold text-center text-white">NEW WEBSITE </h1>
                     <h1 className="text-3xl md:text-6xl font-extrabold text-center text-white">COMING SOON </h1>
                     <div className="flex justify-center items-center space-x-5 mt-6">
