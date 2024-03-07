@@ -3,11 +3,11 @@ import tiktokImage from '../assets/images/Vector.png'
 import instagramImage from '../assets/images/instagram 1.png'
 import Bg from '../assets/images/image 18.png'
 
-const ComingSoon = () => {
+const LandingPage = () => {
   return (
     <main className="relative w-screen h-screen overflow-hidden">
         <img src={Bg} alt="" className='absolute object-cover w-full h-full' />
-        <div className="bg-black opacity-60 h-screen">
+        <div className="bg-black opacity-70 h-screen">
             <div className="flex flex-col items-center justify-center">
                 <div className="pt-12">
                     <img src={logo} alt="" className="object-contain" />
@@ -26,4 +26,4 @@ const ComingSoon = () => {
   )
 }
 
-export default ComingSoon
+export default LandingPage
